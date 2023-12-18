@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "audiophoria",
+	"version": "${version}",
+	"name": "Audiophoria",
+	"description": "Adds custom music discs featuring the music of Dr Kwin",
+	"authors": [
+		"Awakey"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/audiophoria/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.awakey.audiophoria.Audiophoria"
+		],
+		"client": [
+			"net.awakey.audiophoria.AudiophoriaClient"
+		],
+		"fabric-datagen": [
+			"net.awakey.audiophoria.AudiophoriaDataGenerator"
+		]
+	},
+	"mixins": [
+		"audiophoria.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

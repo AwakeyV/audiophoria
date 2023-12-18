@@ -1,0 +1,10 @@
+{
+  "violent": {
+    "sounds": [
+      {
+        "name": "audiophoria:violent",
+        "stream": true
+      }
+    ]
+  }
+}
