@@ -1,6 +1,7 @@
 package net.awakey.audiophoria;
 
 import net.awakey.audiophoria.item.ModItemGroups;
+import net.awakey.audiophoria.item.ModItems;
 import net.awakey.audiophoria.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
@@ -16,6 +17,7 @@ public class Audiophoria implements ModInitializer {
 	public void onInitialize() {
 		ModSounds.registerSounds();
 		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 
 		LOGGER.info("Hello Fabric world!");
 	}

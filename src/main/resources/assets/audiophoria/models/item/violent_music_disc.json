@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "audiophoria:item/violent_music_disc"
+  }
+}
