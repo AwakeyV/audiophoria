@@ -3,7 +3,7 @@
 	"id": "audiophoria",
 	"version": "${version}",
 	"name": "Audiophoria",
-	"description": "Adds custom music discs featuring the music of Dr Kwin",
+	"description": "Adds custom music discs featuring the music of my good friend Dr Kwin",
 	"authors": [
 		"Awakey"
 	],
@@ -11,7 +11,7 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "LGPL-3.0-only",
 	"icon": "assets/audiophoria/icon.png",
 	"environment": "*",
 	"entrypoints": {
