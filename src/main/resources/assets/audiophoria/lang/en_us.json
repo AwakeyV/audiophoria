@@ -1,5 +1,13 @@
 {
+
+
   "item.audiophoria.violent_music_disc": "Violent Music Disc",
   "item.audiophoria.violent_music_disc.desc": "Violent - Dr Kwin",
+
+
+  "item.audiophoria.differences_music_disc": "Differences Music Disc",
+  "item.audiophoria.differences_music_disc.desc": "Differences - Dr Kwin",
+
+
   "itemgroup.violent": "Audiophoria"
 }

@@ -13,6 +13,8 @@ public class ModItems {
     public static final Item VIOLENT_MUSIC_DISC = registerItem("violent_music_disc",
             new MusicDiscItem(7, ModSounds.VIOLENT, new FabricItemSettings().maxCount(1), 205));
 
+    public static final Item DIFFERENCES_MUSIC_DISC = registerItem("differences_music_disc",
+            new MusicDiscItem(7, ModSounds.DIFFERENCES, new FabricItemSettings().maxCount(1), 71));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
 

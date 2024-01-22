@@ -16,6 +16,10 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.violent"))
                     .icon(() -> new ItemStack(ModItems.VIOLENT_MUSIC_DISC)).entries((displayContext, entries) -> {
                         entries.add(ModItems.VIOLENT_MUSIC_DISC);
+                        entries.add(ModItems.DIFFERENCES_MUSIC_DISC);
+
+
+
                     }).build());
 
     public static void registerItemGroups() {

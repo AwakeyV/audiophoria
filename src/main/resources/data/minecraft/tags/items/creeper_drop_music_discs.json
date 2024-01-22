@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "audiophoria:violent_music_disc"
+    "audiophoria:violent_music_disc",
+    "audiophoria:differences_music_disc"
   ]
 }
